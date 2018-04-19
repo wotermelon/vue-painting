@@ -4,6 +4,8 @@
 
 A image tailor and painting component for Vue.
 
+see：[demo](https://wotermelon.github.io/vue-painting/dist/demo/index.html)
+
 ## Installation
 
 ### NPM
