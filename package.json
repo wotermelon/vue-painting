@@ -11,6 +11,17 @@
     "build:demo": "node build/build.js",
     "build:cmpt": "node build/build-component.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wotermelon/vue-painting.git"
+  },
+  "keywords": [
+    "vue",
+    "canvas",
+    "konva",
+    "painting",
+    "vue-painting"
+  ],
   "dependencies": {
     "konva": "^2.0.2",
     "vue": "^2.5.2"
