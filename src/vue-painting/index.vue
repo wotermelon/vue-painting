@@ -377,6 +377,8 @@ export default {
       }
     },
     onAbandonDraw () {
+      this.isCrop = false
+      this.clearCanvas()
       this.$emit('quit')
     }
   },

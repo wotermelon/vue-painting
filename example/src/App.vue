@@ -16,13 +16,16 @@ export default {
   name: 'App',
   methods: {
     onSaveImage (blobFile) {
-
+      var a = document.createElement('a')
+      a.download = `painting-${+new Date}.png`
+      a.href = window.URL.createObjectURL(blobFile)
+      a.click()
     },
     onCopyImage (blobFile) {
-
+      alert('copyToClipBord')
     },
     onQuitDraw (a) {
-
+      alert('quit')
     }
   },
   components: {
