@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A image tailor and painting component for Vue.",
   "author": "wotermelon <zwotermelon@gmail.com>",
-  "private": true,
   "main": "./dist/vue-painting.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
