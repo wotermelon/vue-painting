@@ -10,6 +10,10 @@ see：[demo](https://wotermelon.github.io/vue-painting/dist/demo/index.html)
 
 ### NPM
 
+```
+npm install vue-painting --save
+```
+
 #### ES6:
 
 ```js
