@@ -1,6 +1,6 @@
 {
   "name": "vue-painting",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A image tailor and painting component for Vue.",
   "author": "wotermelon <zwotermelon@gmail.com>",
   "main": "./dist/vue-painting.js",
@@ -22,9 +22,11 @@
     "painting",
     "vue-painting"
   ],
-  "dependencies": {
-    "konva": "^2.0.2",
+  "peerDependencies": {
     "vue": "^2.5.2"
+  },
+  "dependencies": {
+    "konva": "^2.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
