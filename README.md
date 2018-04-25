@@ -4,7 +4,7 @@
 
 A Vue.js(v2.x+) component for cropping and painting image.
 
-see：[demo](https://wotermelon.github.io/vue-painting/dist/demo/index.html)
+see：[demo](https://wotermelon.github.io/vue-painting/)
 
 ## Installation
 
@@ -57,17 +57,17 @@ new Vue({
 
 ### Props
 
-| Prop | Type | Descrition |
-| ---- | ---- | ---------- |
-| img | String | The image source,can be `base64` and `url` |
+| Prop | Type   | Descrition                               |
+| ---- | ------ | ---------------------------------------- |
+| img  | String | The image source,can be `base64` and `url` |
 
 ### Events
 
-| Name | Param[Type] | Descrition |
-| ---- | ---- | ---------- |
+| Name      | Param[Type]     | Descrition                        |
+| --------- | --------------- | --------------------------------- |
 | saveImage | clipImage[Blob] | dispatch when `save button` click |
-| copyImage | clipImage[Blob] | dispatch when `√` click |
-| quit | | dispatch when `quit` |
+| copyImage | clipImage[Blob] | dispatch when `√` click           |
+| quit      |                 | dispatch when `quit`              |
 
 ## License
 
