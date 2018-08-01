@@ -1,6 +1,6 @@
 {
   "name": "vue-painting",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A image tailor and painting component for Vue.",
   "author": "wotermelon <zwotermelon@gmail.com>",
   "main": "./dist/vue-painting.js",
