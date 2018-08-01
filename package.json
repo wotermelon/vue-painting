@@ -26,7 +26,8 @@
     "vue": "^2.5.2"
   },
   "dependencies": {
-    "konva": "^2.0.2"
+    "konva": "^2.0.2",
+    "vue": "^2.5.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

@@ -416,6 +416,7 @@ export default class Painting {
   }
   drawText () {
     // 如果是聚焦状态，点击其他位置则移开
+    console.log(this.isFocus)
     if (this.isFocus) {
       return this.textarea.blur()
     }
@@ -509,6 +510,10 @@ export default class Painting {
     this.textarea.setAttribute('color', this.drawConfig.color)
     this.textarea.setAttribute('fontSize', this.drawConfig.fontSize)
     this.textarea.focus()
+    this.canTextOver = false
+    setTimeout(() => {
+      this.canTextOver = true
+    }, 200)
   }
   // 矩形
   _rect (ctx, startX, startY, endX, endY) {

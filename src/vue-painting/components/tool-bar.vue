@@ -173,6 +173,8 @@ export default {
       this.activeType = this.activeType === type ? '' : type
       if (this.activeType === 'text') {
         this.optionType = 'fontsize'
+      } else {
+        this.optionType = 'lineWidth'
       }
       this.$emit('drawType', this.activeType)
     },
